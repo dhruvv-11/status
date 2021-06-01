@@ -1,3 +1,4 @@
+//do install the following packages. npm i discord.js and npm i discord-rpc
 const RPC = require('discord-rpc')
 const rpc = new RPC.Client({
     transport: 'ipc'
@@ -19,5 +20,5 @@ rpc.on("ready", () => {
 })
 
 rpc.login({
-    clientId: '849349996607307796'
+    clientId: 'YOUR-CLIENT-ID. DONT REMOVE THE COMMAS'
 })
